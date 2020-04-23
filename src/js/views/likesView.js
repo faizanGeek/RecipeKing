@@ -7,7 +7,7 @@ export const toggleLikeBtn = isLiked =>{
 
     //icons.svg#icon-heart-outlined
 };
-
+// "start": "webpack-dev-server --mode development --open"
 export const toggleLikeMenu = numLikes=>{
     elements.likeMenu.style.visibility = numLikes>0?'visible':'hidden';
 };
